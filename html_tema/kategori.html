@@ -1,0 +1,412 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>wookod</title>
+<link rel="stylesheet" href="inc/bootstrap/css/bootstrap.min.css">  
+<link rel="stylesheet" href="inc/slider/css/swiper.min.css">
+<link rel="stylesheet" href="inc/fontawesome/css/all.min.css"> 
+<link rel="stylesheet" href="css/woocommerce.css"> 
+<link rel="stylesheet" href="css/responsive.css"> 
+<link rel="stylesheet" href="css/style.css">  
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>  
+    
+<style>.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    float: left;
+    margin: 0 3.8% 2.992em 0;
+    padding: 0;
+    position: relative;
+    width: 22.05%;
+    margin-left: 0;
+}
+    
+
+    
+    </style>    
+    
+</head>    
+<body>
+    
+<div class="container-fluid header-bolumu">
+<div class="container">
+    <div class="row">
+        
+    <div class="col-md-3 logo-alani">
+    <a href="index.html"><img class="site-logosu img-fluid" src="img/wookod-logo.png" alt=""/></a>
+        
+    
+    <span class="mobil-menu-icon"><svg class="bi bi-justify" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M2 12.5a.5.5 0 01.5-.5h11a.5.5 0 010 1h-11a.5.5 0 01-.5-.5zm0-3a.5.5 0 01.5-.5h11a.5.5 0 010 1h-11a.5.5 0 01-.5-.5zm0-3a.5.5 0 01.5-.5h11a.5.5 0 010 1h-11a.5.5 0 01-.5-.5zm0-3a.5.5 0 01.5-.5h11a.5.5 0 010 1h-11a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+    </svg>
+    <span class="mobil-menu-yazi">Menü</span>
+    </span>
+    <ul class="mobil-menu">
+    <li class="page_item page-item-119 current_page_item"><a href="kategori.html" aria-current="page">Dekor</a></li>
+    <li class="page_item page-item-9"><a href="kategori.html">Giyim</a></li>
+    <li class="page_item page-item-6"><a href="kategori.html">Aksesuar</a></li>
+    <li class="page_item page-item-8"><a href="kategori.html">Kapşonlular</a></li>
+    <li class="page_item page-item-2"><a href="kategori.html">T-Shirtler</a></li>
+    <li class="page_item page-item-7"><a href="kategori.html">Müzik</a></li>
+    </ul>    
+    </div>
+    
+    <div class="col-md-6 header-arama">
+       
+    <form name="header-arama" method="GET" class="" action="">
+    <select name="product_cat" id="product_cat" class="header-arama-kategori hidden-xs">
+        <option value="0" selected="selected">Tüm Kategoriler</option>
+        <option class="level-0" value="genel">Giyim</option>
+        <option class="level-0" value="clothing">Aksesuar</option>
+        <option class="level-0" value="music">Kapşonlular</option>
+        <option class="level-0" value="decor">T-Shirtler</option>
+    </select> 
+  	<input type="hidden" value="product" name="post_type">
+	<input type="text" name="s" class="arama-input" required maxlength="128" value="" placeholder="Ürün Ara | Ör. iPhone XS Max...">
+	<button type="submit" title="Ara" class="header-arama-buton">Ara</button>
+	</form>
+        
+    </div>
+        
+    <div class="col-md-3 sepet-alani">
+    <a href="urun.html"> 
+    <span class="sepet-baslik">Sepetiniz</span>
+	
+	<span class="sepet-guncel">
+	<span class="sepet-urun">2</span>
+	<span class="sepet-fiyat">180 ₺</span>
+	</span> 
+	
+    <i class="fas fa-shopping-cart"></i> 
+    </a>     
+    </div>    
+        
+        
+    </div>
+</div>
+
+</div>
+    
+
+    
+<div class="container-fluid header-menu">
+
+    <div class="container">
+    <ul>
+    <li class="page_item page-item-119 current_page_item"><a href="kategori.html" aria-current="page">Dekor</a></li>
+    <li class="page_item page-item-9"><a href="kategori.html">Giyim</a></li>
+    <li class="page_item page-item-6"><a href="kategori.html">Aksesuar</a></li>
+    <li class="page_item page-item-8"><a href="kategori.html">Kapşonlular</a></li>
+    <li class="page_item page-item-2"><a href="kategori.html">T-Shirtler</a></li>
+    <li class="page_item page-item-7"><a href="kategori.html">Müzik</a></li>
+    </ul>
+    </div>
+    
+</div> 
+    
+    
+    
+    
+   
+    
+<div class="clearfix"></div>
+    
+
+  
+    <div class="container p-0 arsiv woocommerce">
+<div class="row">
+<div class="col-md-4 col-lg-3 arsiv-sidebar">
+    <div class="beyaz-kutu"><h3 class="tab-baslik kalin-baslik">En çok oylanan <strong>ürünler</strong></h3><div class="clearfix"></div><ul class="product_list_widget"><li>
+	
+	<a href="urun.html">
+		<img width="300" height="300" src="img/beanie-2-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="">		<span class="product-title">Beanie</span>
+	</a>
+
+				
+	<del><span class="woocommerce-Price-amount amount">20&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></del> <ins><span class="woocommerce-Price-amount amount">18&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></ins>
+	</li>
+<li>
+	
+	<a href="urun.html">
+		<img width="300" height="300" src="img/logo-1-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="">		<span class="product-title">Logo Collection</span>
+	</a>
+
+				
+	<span class="woocommerce-Price-amount amount">18&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span> – <span class="woocommerce-Price-amount amount">45&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span>
+	</li>
+<li>
+	
+	<a href="urun.html">
+		<img width="300" height="300" src="img/belt-2-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" >		<span class="product-title">Belt</span>
+	</a>
+
+				
+	<del><span class="woocommerce-Price-amount amount">65&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></del> <ins><span class="woocommerce-Price-amount amount">55&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></ins>
+	</li>
+<li>
+	
+	<a href="urun.html">
+		<img width="300" height="300" src="img/pennant-1-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" >		<span class="product-title">WordPress Pennant</span>
+	</a>
+
+				
+	<span class="woocommerce-Price-amount amount">11&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span>
+	</li>
+<li>
+	
+	<a href="urun.html">
+		<img width="300" height="300" src="img/cap-2-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" >		<span class="product-title">Cap</span>
+	</a>
+
+				
+	<del><span class="woocommerce-Price-amount amount">18&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></del> <ins><span class="woocommerce-Price-amount amount">16&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></ins>
+	</li>
+</ul></div><div class="beyaz-kutu"><h3 class="tab-baslik kalin-baslik">Son görüntülenen <strong>ürünler</strong></h3><div class="clearfix"></div><ul class="product_list_widget"><li>
+	
+	<a href="urun.html">
+		<img width="300" height="300" src="img/album-1-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" >		<span class="product-title">Album</span>
+	</a>
+
+	
+	<span class="woocommerce-Price-amount amount">15&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span>
+	</li>
+</ul></div><div class="beyaz-kutu"><form role="search" method="get" class="woocommerce-product-search" action="kategori.html">
+	<label class="screen-reader-text" for="woocommerce-product-search-field-0">Ara:</label>
+	<input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Ürünlerde ara…" value="" name="s">
+	<button type="submit" value="Ara">Ara</button>
+	<input type="hidden" name="post_type" value="product">
+</form>
+</div><div class="beyaz-kutu"><h3 class="tab-baslik kalin-baslik">Ürün <strong>kategorileri</strong></h3><div class="clearfix"></div><ul class="product-categories"><li class="cat-item cat-item-16 cat-parent"><a href="kategori.html">Clothing</a><ul class="children">
+<li class="cat-item cat-item-19"><a href="kategori.html">Accessories</a></li>
+<li class="cat-item cat-item-18"><a href="kategori.html">Hoodies</a></li>
+<li class="cat-item cat-item-17"><a href="kategori.html">Tshirts</a></li>
+</ul>
+</li>
+<li class="cat-item cat-item-21"><a href="kategori.html">Decor</a></li>
+<li class="cat-item cat-item-15"><a href="kategori.html">Genel</a></li>
+<li class="cat-item cat-item-20"><a href="kategori.html">Music</a></li>
+</ul></div><div class="beyaz-kutu"><h3 class="tab-baslik kalin-baslik">Fiyata göre <strong>filtrele</strong></h3><div class="clearfix"></div>
+<form method="get" action="kategori.html">
+	<div class="price_slider_wrapper">
+		<div class="price_slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" style=""><div class="ui-slider-range ui-widget-header ui-corner-all" style="left: 0%; width: 100%;"></div><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;"></span><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 100%;"></span></div>
+		<div class="price_slider_amount" data-step="10">
+			<input type="text" id="min_price" name="min_price" value="0" data-min="0" placeholder="En düşük fiyat" style="display: none;">
+			<input type="text" id="max_price" name="max_price" value="800" data-max="800" placeholder="En yüksek fiyat" style="display: none;">
+						<button type="submit" class="button">Filtrele</button>
+			<div class="price_label" style="">
+				Fiyat: <span class="from">0&nbsp;₺</span> — <span class="to">800&nbsp;₺</span>
+			</div>
+						<div class="clear"></div>
+		</div>
+	</div>
+</form>
+
+</div></div>    
+<div class="col-md-8 col-lg-9 arsiv-icerik">
+    <div class="beyaz-kutu">
+
+<div id="primary" class="content-area"><main id="main" class="site-main" role="main"><nav class="woocommerce-breadcrumb"><a href="index.html">Ana Sayfa</a>&nbsp;/&nbsp;Mağaza</nav><header class="woocommerce-products-header">
+	
+	</header>
+<div class="woocommerce-notices-wrapper"></div><p class="woocommerce-result-count">
+	18 sonuçtan 1-16 arası gösteriliyor</p>
+<form class="woocommerce-ordering" method="get">
+	<select name="orderby" class="orderby" aria-label="Sipariş">
+					<option value="menu_order" selected="selected">Varsayılan Sıralama</option>
+					<option value="popularity">En çok incelenene göre sırala</option>
+					<option value="rating">En çok oy alana göre sırala</option>
+					<option value="date">En yeniye göre sırala</option>
+					<option value="price">Fiyata göre sırala: Düşükten yükseğe</option>
+					<option value="price-desc">Fiyata göre sırala: Yüksekten düşüğe</option>
+			</select>
+	<input type="hidden" name="paged" value="1">
+	</form>
+<ul class="products columns-4">
+<li class="product type-product post-31 status-publish first instock product_cat-music has-post-thumbnail downloadable virtual taxable purchasable product-type-simple">
+	<a href="urun.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="img/album-1-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" ><h2 class="woocommerce-loop-product__title">Album</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount">15&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></span>
+</a><a href="urun.html" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="31" data-product_sku="woo-album" aria-label="“Album” ürününü sepete ekle" rel="nofollow">Sepete Ekle</a></li>
+<li class="product type-product post-23 status-publish instock product_cat-accessories has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
+	<a href="urun.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+	<span class="onsale">İndirim!</span>
+	<img width="300" height="300" src="img/beanie-2-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" ><h2 class="woocommerce-loop-product__title">Beanie</h2>
+	<span class="price"><del><span class="woocommerce-Price-amount amount">20&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></del> <ins><span class="woocommerce-Price-amount amount">18&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></ins></span>
+</a><a href="urun.html" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="23" data-product_sku="woo-beanie" aria-label="“Beanie” ürününü sepete ekle" rel="nofollow">Sepete Ekle</a></li>
+<li class="product type-product post-40 status-publish instock product_cat-accessories has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
+	<a href="urun.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+	<span class="onsale">İndirim!</span>
+	<img width="300" height="300" src="img/beanie-with-logo-1-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""><h2 class="woocommerce-loop-product__title">Beanie with Logo</h2>
+	<span class="price"><del><span class="woocommerce-Price-amount amount">20&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></del> <ins><span class="woocommerce-Price-amount amount">18&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></ins></span>
+</a><a href="urun.html" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="40" data-product_sku="Woo-beanie-logo" aria-label="“Beanie with Logo” ürününü sepete ekle" rel="nofollow">Sepete Ekle</a></li>
+<li class="product type-product post-24 status-publish last instock product_cat-accessories has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
+	<a href="urun.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+	<span class="onsale">İndirim!</span>
+	<img width="300" height="300" src="img/belt-2-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" s><h2 class="woocommerce-loop-product__title">Belt</h2>
+	<span class="price"><del><span class="woocommerce-Price-amount amount">65&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></del> <ins><span class="woocommerce-Price-amount amount">55&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></ins></span>
+</a><a href="urun.html" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="24" data-product_sku="woo-belt" aria-label="“Belt” ürününü sepete ekle" rel="nofollow">Sepete Ekle</a></li>
+<li class="product type-product post-25 status-publish first instock product_cat-accessories has-post-thumbnail sale featured taxable shipping-taxable purchasable product-type-simple">
+	<a href="urun.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+	<span class="onsale">İndirim!</span>
+	<img width="300" height="300" src="img/cap-2-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" ><h2 class="woocommerce-loop-product__title">Cap</h2>
+	<span class="price"><del><span class="woocommerce-Price-amount amount">18&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></del> <ins><span class="woocommerce-Price-amount amount">16&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></ins></span>
+</a><a href="urun.html" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="25" data-product_sku="woo-cap" aria-label="“Cap” ürününü sepete ekle" rel="nofollow">Sepete Ekle</a></li>
+<li class="product type-product post-20 status-publish instock product_cat-hoodies has-post-thumbnail sale taxable shipping-taxable purchasable product-type-variable">
+	<a href="urun.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+	<span class="onsale">İndirim!</span>
+	<img width="300" height="300" src="img/hoodie-2-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" ><h2 class="woocommerce-loop-product__title">Hoodie</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount">42&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span> – <span class="woocommerce-Price-amount amount">45&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></span>
+</a><a href="urun.html" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="20" data-product_sku="woo-hoodie" aria-label="“Hoodie” için seçenekleri seçin" rel="nofollow">Seçenekler</a></li>
+<li class="product type-product post-21 status-publish instock product_cat-hoodies has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
+	<a href="urun.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="img/hoodie-with-logo-2-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" ><h2 class="woocommerce-loop-product__title">Hoodie with Logo</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount">45&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></span>
+</a><a href="urun.html" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="21" data-product_sku="woo-hoodie-with-logo" aria-label="“Hoodie with Logo” ürününü sepete ekle" rel="nofollow">Sepete Ekle</a></li>
+<li class="product type-product post-28 status-publish last instock product_cat-hoodies has-post-thumbnail featured taxable shipping-taxable purchasable product-type-simple">
+	<a href="urun.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="img/hoodie-with-zipper-2-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" ><h2 class="woocommerce-loop-product__title">Hoodie with Zipper</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount">45&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></span>
+</a><a href="urun.html" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="28" data-product_sku="woo-hoodie-with-zipper" aria-label="“Hoodie with Zipper” ürününü sepete ekle" rel="nofollow">Sepete Ekle</a></li>
+<li class="product type-product post-41 status-publish first instock product_cat-clothing has-post-thumbnail sale taxable shipping-taxable product-type-grouped">
+	<a href="urun.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+	<span class="onsale">İndirim!</span>
+	<img width="300" height="300" src="img/logo-1-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" ><h2 class="woocommerce-loop-product__title">Logo Collection</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount">18&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span> – <span class="woocommerce-Price-amount amount">45&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></span>
+</a><a href="urun.html" data-quantity="1" class="button product_type_grouped" data-product_id="41" data-product_sku="logo-collection" aria-label="“Logo Collection” grubundaki ürünleri görüntüle" rel="nofollow">Ürünleri görüntüle</a></li>
+<li class="product type-product post-29 status-publish instock product_cat-tshirts has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
+	<a href="urun.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="img/long-sleeve-tee-2-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" ><h2 class="woocommerce-loop-product__title">Long Sleeve Tee</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount">25&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></span>
+</a><a href="urun.html" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="29" data-product_sku="woo-long-sleeve-tee" aria-label="“Long Sleeve Tee” ürününü sepete ekle" rel="nofollow">Sepete Ekle</a></li>
+<li class="product type-product post-30 status-publish instock product_cat-tshirts has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
+	<a href="urun.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="img/polo-2-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" ><h2 class="woocommerce-loop-product__title">Polo</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount">20&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></span>
+</a><a href="urun.html" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="30" data-product_sku="woo-polo" aria-label="“Polo” ürününü sepete ekle" rel="nofollow">Sepete Ekle</a></li>
+<li class="product type-product post-32 status-publish last instock product_cat-music has-post-thumbnail sale downloadable virtual taxable purchasable product-type-simple">
+	<a href="urun.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+	<span class="onsale">İndirim!</span>
+	<img width="300" height="300" src="img/single-1-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" ><h2 class="woocommerce-loop-product__title">Single</h2>
+	<span class="price"><del><span class="woocommerce-Price-amount amount">3&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></del> <ins><span class="woocommerce-Price-amount amount">2&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></ins></span>
+</a><a href="urun.html" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="32" data-product_sku="woo-single" aria-label="“Single” ürününü sepete ekle" rel="nofollow">Sepete Ekle</a></li>
+<li class="product type-product post-26 status-publish first instock product_cat-accessories has-post-thumbnail featured taxable shipping-taxable purchasable product-type-simple">
+	<a href="urun.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="img/sunglasses-2-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" ><h2 class="woocommerce-loop-product__title">Sunglasses</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount">90&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></span>
+</a><a href="urun.html" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="26" data-product_sku="woo-sunglasses" aria-label="“Sunglasses” ürününü sepete ekle" rel="nofollow">Sepete Ekle</a></li>
+<li class="product type-product post-22 status-publish instock product_cat-tshirts has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
+	<a href="urun.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="img/tshirt-2-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""><h2 class="woocommerce-loop-product__title">T-Shirt</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount">18&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></span>
+</a><a href="urun.html" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="22" data-product_sku="woo-tshirt" aria-label="“T-Shirt” ürününü sepete ekle" rel="nofollow">Sepete Ekle</a></li>
+<li class="product type-product post-39 status-publish instock product_cat-tshirts has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
+	<a href="urun.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="img/t-shirt-with-logo-1-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" ><h2 class="woocommerce-loop-product__title">T-Shirt with Logo</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount">18&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></span>
+</a><a href="urun.html" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="39" data-product_sku="Woo-tshirt-logo" aria-label="“T-Shirt with Logo” ürününü sepete ekle" rel="nofollow">Sepete Ekle</a></li>
+<li class="product type-product post-19 status-publish last instock product_cat-tshirts has-post-thumbnail featured taxable shipping-taxable purchasable product-type-variable">
+	<a href="urun.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="img/vneck-tee-2-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" ><h2 class="woocommerce-loop-product__title">V-Neck T-Shirt</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount">15&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span> – <span class="woocommerce-Price-amount amount">20&nbsp;<span class="woocommerce-Price-currencySymbol">₺</span></span></span>
+</a><a href="urun.html" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="19" data-product_sku="woo-vneck-tee" aria-label="“V-Neck T-Shirt” için seçenekleri seçin" rel="nofollow">Seçenekler</a></li>
+</ul>
+<nav class="woocommerce-pagination">
+	<ul class="page-numbers">
+	<li><span aria-current="page" class="page-numbers current">1</span></li>
+	<li><a class="page-numbers" href="kategori.html">2</a></li>
+	<li><a class="next page-numbers" href="kategori.html">→</a></li>
+</ul>
+</nav>
+</main></div></div>  
+</div>
+</div>    
+</div>
+    
+
+    
+    
+    
+<div class="container-fluid footer-alani beyaz-kutu">
+
+    <div class="container">
+    
+        <div class="row">
+        
+            <div class="col-md-4">
+                <a href="#"><img class="footer-logosu img-fluid" src="img/wookod-logo-footer.png" alt=""></a>
+                <p><strong>Adres: </strong>Firmanın adresi firmanın adresi firmanın adresi firmanın adresi firmanın adresi</p>    
+                <p><strong>Telefon: </strong>0312 312 12 12</p> 
+                <p><strong>E-Mail: </strong><a href="mailto:alicinaroglu@gmail.com">alicinaroglu@gmail.com</a></p>  
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+               <div class="col-md-6">
+                <h3>Footer Menü</h3>
+                <div id="footer-menu1" class="footer-menu"><ul>
+            <li class="page_item page-item-119 current_page_item"><a href="index.html" aria-current="page">Ana Sayfa</a></li>
+            <li class="page_item page-item-9"><a href="#">Hesabım</a></li>
+            <li class="page_item page-item-6"><a href="#">Mağaza</a></li>
+            <li class="page_item page-item-8"><a href="#">Ödeme</a></li>
+            <li class="page_item page-item-2"><a href="#">Örnek sayfa</a></li>
+            <li class="page_item page-item-7"><a href="#">Sepet</a></li>
+            </ul></div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                <h3>Footer Menü</h3>
+                <div id="footer-menu2" class="footer-menu"><ul>
+            <li class="page_item page-item-119 current_page_item"><a href="index.html" aria-current="page">Ana Sayfa</a></li>
+            <li class="page_item page-item-9"><a href="#">Hesabım</a></li>
+            <li class="page_item page-item-6"><a href="#">Mağaza</a></li>
+            <li class="page_item page-item-8"><a href="#">Ödeme</a></li>
+            <li class="page_item page-item-2"><a href="#">Örnek sayfa</a></li>
+            <li class="page_item page-item-7"><a href="#">Sepet</a></li>
+            </ul></div>
+                    
+                    </div>
+                
+                </div>
+                
+                
+            </div>
+            
+            <div class="col-md-4 footer-ebulten">
+            <h3>E-Bülten</h3>
+            
+            </div>
+        </div>
+        
+    
+    
+        
+    </div>
+
+</div>
+    
+<div class="container-fluid footer-alani-2 beyaz-kutu">
+
+    <div class="container">
+    
+        <div class="row">
+        
+            <div class="col-md-8">Test 2020 - © Her Hakkı Saklıdır</div>
+            <div class="col-md-4 footer-odeme-logolari">
+            
+                        <img src="img/odeme-logolari.png" class="img-fluid">
+                
+               
+            </div>
+            
+            
+        </div>
+        
+    
+    
+        
+    </div>
+
+</div>
+    
+ <a href="#top" class="sayfa-basi"><i class="fas fa-arrow-up"></i></a>   
+    
+    
+<script type="text/javascript" src="inc/popper.min.js"></script>
+<script type="text/javascript" src="inc/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="inc/slider/js/swiper.min.js"></script>
+<script type="text/javascript" src="inc/slider/js/swiper.thumbnails.js"></script>
+<script type="text/javascript" src="inc/scripts.js"></script>
+	   
+    
+    
+</body>
+</html>

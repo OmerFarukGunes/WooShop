@@ -1,0 +1,91 @@
+@media (max-width: 1900px) {
+
+}
+
+@media (max-width: 1600px) {
+	
+
+}
+
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 1366px) {
+	
+   
+}
+
+@media (max-width: 1280px) {
+	
+
+
+}
+
+
+
+@media (max-width: 1024px) { /*ipad yatay */
+    .header-arama-kategori {border-radius: 0px;width: 100%;}
+    .header-bolumu {padding-top:10px;padding-bottom: 10px;}
+    .header-arama input {width: 81%;padding:10px 15px 9px 15px;}
+    .sepet-urun {right: 15px;}
+    .beyaz-kutu {padding:15px;}
+    .header-menu li a {line-height: 40px;}
+    .header-arama-buton {border-radius: 0px;}
+}
+
+@media (max-width: 768px) { /*ipad dikey */
+
+    .header-arama input {width: 70%;}
+    .woocommerce .quantity .qty {float: none;margin-right: 0px;}
+   
+}
+
+@media (max-width: 736px) and (max-height: 414px) { /*Tüm Telefonlar YATAY*/
+	
+
+}
+
+@media (max-width: 736px) { /*tüm telefonlar */
+	.mobil-menu-icon {display:block;color:#ffffff;float: right;}
+	.mobil-menu-icon svg {width: 35px;    height: 35px;    vertical-align: top;color:#ffffff;}
+    .logo-alani {margin-bottom: 15px;}
+    .header-arama {margin-bottom: 15px;}
+    .header-menu {display: none;}
+    .header-bolumu {margin-bottom: 15px;}
+    .slide-alti-kutu-icon {text-align: left;}
+    .slide-alti-kutu {margin-bottom: 15px;}
+    .urun-liste {margin-bottom: 15px;}
+    .sayfa-basi {width: 30px;height: 30px;line-height: 30px;font-size: 15px;right: 10px;bottom: 10px;}
+    .anasayfa-blog-kutu {margin-bottom: 15px;}
+    .footer-alani h3 {margin:0px;}
+    .footer-alani-2 {padding:10px!important;padding-left: 0px!important;padding-right: 0px!important;}
+    .footer-odeme-logolari {margin-top: 10px;text-align: left;}
+    .sepet-alani i {font-size: 20px;}
+    .sepet-urun {position: inherit;float: right;margin-left: 5px;}
+    .woocommerce div.product form.cart div.quantity {width: 100%;}
+    .woocommerce .quantity .qty {width: 100%;margin-right: 0px;}
+    .woocommerce div.product form.cart .button {max-width: 100%;}
+    .woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {max-width: 100%;}
+    
+}
+
+@media (max-width: 736px) { /*iphone 6 plus yatay */
+}
+
+@media (max-width: 667px) { /*iphone 6 yatay */
+}
+
+@media (min-width: 415px) and (max-width: 568px) { /*iphone 5 yatay */
+}
+
+@media (min-width: 376px) and (max-width: 414px) { /*iphone 6 plus dik */
+}
+
+@media (min-width: 321px) and (max-width: 375px) { /*iphone 6 dik */
+}
+
+@media (max-width: 320px) { /*iphone 5 dik */
+}
+
+
